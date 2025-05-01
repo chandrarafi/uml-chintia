@@ -1,9 +1,117 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Halaman-1" id="S5n0E-ivngwIvmT2D9FZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1358" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-1" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="84" y="155" width="330" height="925" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="D_UO-cxRjdTMmOT4h1H2-1" source="D_UO-cxRjdTMmOT4h1H2-7" target="D_UO-cxRjdTMmOT4h1H2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-7" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#333333;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-1">
+          <mxGeometry x="142.5" y="55" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-9" value="Klik menu dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-1">
+          <mxGeometry x="105" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-13" value="Klik pilih dataset dalam format xls/csv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-1">
+          <mxGeometry x="105" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-17" value="Memilih file dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-1">
+          <mxGeometry x="105" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-21" value="Mengklik import" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-1">
+          <mxGeometry x="105" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-6" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="155" width="330" height="925" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-10" value="Menampilkan halaman dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="116" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-15" value="Membuka file exproler user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="116" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-18" value="Mengunggah file ke sistem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="116" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="D_UO-cxRjdTMmOT4h1H2-6" source="D_UO-cxRjdTMmOT4h1H2-22" target="D_UO-cxRjdTMmOT4h1H2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-22" value="Memvalidasi file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="116" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="D_UO-cxRjdTMmOT4h1H2-6" source="D_UO-cxRjdTMmOT4h1H2-25" target="D_UO-cxRjdTMmOT4h1H2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-31" value="Valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D_UO-cxRjdTMmOT4h1H2-30">
+          <mxGeometry x="-0.131" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-25" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="136" y="565" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="D_UO-cxRjdTMmOT4h1H2-6" source="D_UO-cxRjdTMmOT4h1H2-29" target="D_UO-cxRjdTMmOT4h1H2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-29" value="Insert data ke database dan menampilkan data yang di import" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="116" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#333333;" vertex="1" parent="D_UO-cxRjdTMmOT4h1H2-6">
+          <mxGeometry x="161" y="848" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-9" target="D_UO-cxRjdTMmOT4h1H2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-10" target="D_UO-cxRjdTMmOT4h1H2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="370" />
+              <mxPoint x="249" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-13" target="D_UO-cxRjdTMmOT4h1H2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-15" target="D_UO-cxRjdTMmOT4h1H2-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="470" />
+              <mxPoint x="249" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-17" target="D_UO-cxRjdTMmOT4h1H2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-18" target="D_UO-cxRjdTMmOT4h1H2-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="565" />
+              <mxPoint x="249" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-21" target="D_UO-cxRjdTMmOT4h1H2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D_UO-cxRjdTMmOT4h1H2-25" target="D_UO-cxRjdTMmOT4h1H2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="760" />
+              <mxPoint x="140" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_UO-cxRjdTMmOT4h1H2-28" value="Tidak Valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D_UO-cxRjdTMmOT4h1H2-27">
+          <mxGeometry x="-0.7633" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
